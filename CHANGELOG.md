@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.4](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.4.3...v1.4.4) (2026-01-06)
+
+### Bug Fixes
+
+* Add some debug output and run setup as root ([7ab8c4c](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/7ab8c4ccf68152c8c9fcc5721a22c9e933ffdab6))
+
 ## [1.4.3](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.4.2...v1.4.3) (2026-01-06)
 
 ### Bug Fixes
