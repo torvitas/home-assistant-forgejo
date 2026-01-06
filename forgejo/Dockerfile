@@ -32,8 +32,8 @@ ENV GITEA_CUSTOM=/var/lib/gitea/data
 ENV GITEA_TEMP=/tmp/gitea
 ENV TMPDIR=/tmp/gitea
 
-RUN mkdir -p "$GITEA_WORK_DIR" "$GITEA_CUSTOM" /etc/gitea
-RUN chown -R git:git "$GITEA_WORK_DIR" "$GITEA_CUSTOM" /etc/gitea
+RUN mkdir -p "$GITEA_WORK_DIR" "$GITEA_CUSTOM" "$GITEA_TEMP" /etc/gitea
+RUN chown -R git:git "$GITEA_WORK_DIR" "$GITEA_CUSTOM" "$GITEA_TEMP" /etc/gitea
 
 COPY /data /
 RUN chmod +x /run.sh
