@@ -4,4 +4,6 @@ set -e
 
 bashio::log.info "Starting forgejo..."
 
-exec /app/gitea/gitea $(bashio::config "arguments")
+chown git:git "$GITEA_CUSTOM"
+
+exec gosu git /app/gitea/gitea $(bashio::config "arguments")

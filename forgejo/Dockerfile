@@ -9,6 +9,7 @@ RUN apk --no-cache add \
     git \
     curl \
     gnupg \
+    gosu \
     openssh-client
 COPY --from=forgejo --chown=root:root /app/gitea/gitea /app/gitea/gitea
 COPY --from=forgejo --chown=root:root /usr/local/bin/environment-to-ini /usr/local/bin/environment-to-ini
@@ -36,9 +37,6 @@ RUN chown -R git:git "$GITEA_WORK_DIR" "$GITEA_CUSTOM" /etc/gitea
 
 COPY /data /
 RUN chmod +x /run.sh
-
-#git:git
-USER 1000:1000
 
 ENV GITEA_APP_INI=${GITEA_CUSTOM}/conf/app.ini
 ENV HOME="/var/lib/gitea/git"
