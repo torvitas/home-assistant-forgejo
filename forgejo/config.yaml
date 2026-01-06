@@ -13,7 +13,7 @@ map:
     read_only: false
 ports:
   3000/tcp: 8001
-  22/tcp: 2201
+  2222/tcp: 2222
 ingress: true
 ingress_port: 3000
 image: registry.gitlab.com/home-assistant-addons/home-assistant-forgejo
