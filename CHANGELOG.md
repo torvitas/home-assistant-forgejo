@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.2](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.4.1...v1.4.2) (2026-01-06)
+
+### Bug Fixes
+
+* Actually run the setup ([5cac887](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/5cac887424c4b2e149a05a887d7cd4e4070338a4))
+
 ## [1.4.1](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.4.0...v1.4.1) (2026-01-06)
 
 ### Bug Fixes
