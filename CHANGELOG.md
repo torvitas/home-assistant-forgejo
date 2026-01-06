@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.1.0...v1.2.0) (2026-01-06)
+
+### Features
+
+* Change default data location ([9988250](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/9988250c90ccdae21cdf41182193507fc88828a5))
+
 ## [1.1.0](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.0.0...v1.1.0) (2026-01-06)
 
 ### Features
