@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.2](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.3.1...v1.3.2) (2026-01-06)
+
+### Bug Fixes
+
+* Ensure file modes on tmp dir ([398ab08](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/398ab08ffccdc7a130eef49c319573cf7b7cfb15))
+
 ## [1.3.1](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.3.0...v1.3.1) (2026-01-06)
 
 ### Bug Fixes
