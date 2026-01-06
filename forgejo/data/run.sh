@@ -2,9 +2,11 @@
 # shellcheck shell=bash
 set -e
 
-bashio::log.info "Starting forgejo..."
-
+bashio::log.info "Ensure permission..."
 chown git:git "$GITEA_CUSTOM" "${GITEA_TEMP}"
 
-exec gosu git /usr/local/bin/docker-setup.sh
+bashio::log.info "Render configuration..."
+exec /usr/local/bin/docker-setup.sh
+
+bashio::log.info "Starting forgejo..."
 exec gosu git /app/gitea/gitea $(bashio::config "arguments")
