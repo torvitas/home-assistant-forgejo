@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.3](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.3.2...v1.3.3) (2026-01-06)
+
+### Bug Fixes
+
+* Ensure tmp dir actually exists ([fd17a0a](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/fd17a0ab2b6b73ceb0e38ac8c0f2fb4b5edaf417))
+
 ## [1.3.2](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.3.1...v1.3.2) (2026-01-06)
 
 ### Bug Fixes
