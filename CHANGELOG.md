@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.1](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.2.0...v1.2.1) (2026-01-06)
+
+### Bug Fixes
+
+* Ensure correct permissions in data folder ([0b375b0](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/0b375b02af4c553c7eef6af8b12fb2cf0ceb1061))
+
 ## [1.2.0](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.1.0...v1.2.0) (2026-01-06)
 
 ### Features
