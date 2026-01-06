@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.0](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.3.3...v1.4.0) (2026-01-06)
+
+### Features
+
+* Enable git over ssh ([1555551](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/1555551dbd27fa6d8c4b1819d69f9ed8840e8e08))
+
 ## [1.3.3](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.3.2...v1.3.3) (2026-01-06)
 
 ### Bug Fixes
