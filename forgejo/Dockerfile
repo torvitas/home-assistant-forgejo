@@ -35,7 +35,7 @@ RUN chmod +x /run.sh
 #git:git
 USER 1000:1000
 ENV GITEA_WORK_DIR=/var/lib/gitea
-ENV GITEA_CUSTOM=/var/lib/gitea/custom
+ENV GITEA_CUSTOM=/var/lib/gitea/data
 ENV GITEA_TEMP=/tmp/gitea
 ENV TMPDIR=/tmp/gitea
 

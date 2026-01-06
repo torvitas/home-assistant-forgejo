@@ -9,7 +9,7 @@ arch:
   - amd64
 map:
   - type: addon_config
-    path: /var/lib/gitea/custom
+    path: /var/lib/gitea/data
     read_only: false
 ports:
   3000/tcp: 8001
@@ -20,4 +20,4 @@ schema:
     - str
 options:
   arguments:
-    - -c /var/lib/gitea/custom/conf/app.ini
+    - -c /var/lib/gitea/data/conf/app.ini
