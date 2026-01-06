@@ -1,0 +1,24 @@
+name: forgejo
+version: v0.0.1
+slug: forgejo
+description: Beyond coding. We forge. https://forgejo.org
+url: https://gitlab.com/home-assistant-addons/home-assistant-forgejo
+init: false
+arch:
+  - aarch64
+  - amd64
+map:
+  - type: addon_config
+    path: /var/lib/gitea/custom
+    read_only: false
+ports:
+  80/tcp: 8001
+  443/tcp: 4431
+  22/tcp: 2201
+image: registry.gitlab.com/home-assistant-addons/home-assistant-forgejo
+schema:
+  arguments:
+    - str
+options:
+  arguments:
+    - -c /var/lib/gitea/custom/conf/app.ini
