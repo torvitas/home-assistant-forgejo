@@ -44,5 +44,5 @@ ENV HOME="/var/lib/gitea/git"
 VOLUME ["/var/lib/gitea", "/etc/gitea"]
 WORKDIR /var/lib/gitea
 
-EXPOSE 80 443 22
+EXPOSE 3000 22
 CMD ["/run.sh"]

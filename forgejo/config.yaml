@@ -12,8 +12,7 @@ map:
     path: /var/lib/gitea/custom
     read_only: false
 ports:
-  80/tcp: 8001
-  443/tcp: 4431
+  3000/tcp: 8001
   22/tcp: 2201
 image: registry.gitlab.com/home-assistant-addons/home-assistant-forgejo
 schema:
