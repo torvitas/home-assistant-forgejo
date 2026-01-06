@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.3](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.4.2...v1.4.3) (2026-01-06)
+
+### Bug Fixes
+
+* Add environment variable to make buggy setup script work ([ede32cd](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/ede32cd11eca9a9a83dffbbc59b57dcf38d0e04e))
+
 ## [1.4.2](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.4.1...v1.4.2) (2026-01-06)
 
 ### Bug Fixes
