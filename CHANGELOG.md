@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.1](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.3.0...v1.3.1) (2026-01-06)
+
+### Bug Fixes
+
+* Drop privileges in entrypoint and fix file modes before ([8ff3aa9](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/8ff3aa92572b7760e00813695ef195e95808ecdd))
+
 ## [1.3.0](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.2.1...v1.3.0) (2026-01-06)
 
 ### Features
