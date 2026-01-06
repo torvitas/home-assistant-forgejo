@@ -31,6 +31,7 @@ ENV GITEA_WORK_DIR=/var/lib/gitea
 ENV GITEA_CUSTOM=/var/lib/gitea/data
 ENV GITEA_TEMP=/tmp/gitea
 ENV TMPDIR=/tmp/gitea
+ENV START_SSH_SERVER=true
 
 RUN mkdir -p "$GITEA_WORK_DIR" "$GITEA_CUSTOM" "$GITEA_TEMP" /etc/gitea
 RUN chown -R git:git "$GITEA_WORK_DIR" "$GITEA_CUSTOM" "$GITEA_TEMP" /etc/gitea
