@@ -26,18 +26,19 @@ RUN addgroup \
     -G git \
     git
 
-RUN mkdir -p /var/lib/gitea /etc/gitea
-RUN chown git:git /var/lib/gitea /etc/gitea
+ENV GITEA_WORK_DIR=/var/lib/gitea
+ENV GITEA_CUSTOM=/var/lib/gitea/data
+ENV GITEA_TEMP=/tmp/gitea
+ENV TMPDIR=/tmp/gitea
+
+RUN mkdir -p "$GITEA_WORK_DIR" "$GITEA_CUSTOM" /etc/gitea
+RUN chown -R git:git "$GITEA_WORK_DIR" "$GITEA_CUSTOM" /etc/gitea
 
 COPY /data /
 RUN chmod +x /run.sh
 
 #git:git
 USER 1000:1000
-ENV GITEA_WORK_DIR=/var/lib/gitea
-ENV GITEA_CUSTOM=/var/lib/gitea/data
-ENV GITEA_TEMP=/tmp/gitea
-ENV TMPDIR=/tmp/gitea
 
 ENV GITEA_APP_INI=${GITEA_CUSTOM}/conf/app.ini
 ENV HOME="/var/lib/gitea/git"
