@@ -27,6 +27,9 @@ RUN addgroup \
     -G git \
     git
 
+# This is necessary to make the setup script work as codeberg did not properly quote the variables
+ENV GITEA_APP_INI_LEGACY=/etc/gitea/app.ini
+
 ENV GITEA_WORK_DIR=/var/lib/gitea
 ENV GITEA_CUSTOM=/var/lib/gitea/data
 ENV GITEA_TEMP=/tmp/gitea
