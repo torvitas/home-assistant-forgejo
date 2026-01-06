@@ -14,6 +14,8 @@ map:
 ports:
   3000/tcp: 8001
   22/tcp: 2201
+ingress: true
+ingress_port: 3000
 image: registry.gitlab.com/home-assistant-addons/home-assistant-forgejo
 schema:
   arguments:
