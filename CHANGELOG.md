@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.4.0...v1.4.1) (2026-01-06)
+
+### Bug Fixes
+
+* Configure correct ssh port ([e747f8c](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/e747f8cd9cebbac4581e34224f311bfc03b5738d))
+* Use correct environment variable to enable ssh ([b20fd4a](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/b20fd4a0044c5b99b4ccc6538b03392a2d87933e))
+
 ## [1.4.0](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.3.3...v1.4.0) (2026-01-06)
 
 ### Features
