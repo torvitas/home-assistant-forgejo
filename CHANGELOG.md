@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.0](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.2.1...v1.3.0) (2026-01-06)
+
+### Features
+
+* Enable ingress for webinterface ([a02cf92](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/commit/a02cf92590c54eb43bac933cbf585870a1d8f73c))
+
 ## [1.2.1](https://gitlab.com/home-assistant-addons/home-assistant-forgejo/compare/v1.2.0...v1.2.1) (2026-01-06)
 
 ### Bug Fixes
